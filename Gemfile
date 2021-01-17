@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/yohji/#{repo}.git" }
 
-ruby '2.7.2'
+ruby '~> 2.6'
 
 gem "rle", :github => "rle"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
